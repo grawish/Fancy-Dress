@@ -1,5 +1,4 @@
 <?php
-include "dbconf.php";
 function navbar($home = "", $shop = "", $contact = "", $about_us = "", $login = "")
 {
     echo '<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
@@ -18,6 +17,7 @@ function navbar($home = "", $shop = "", $contact = "", $about_us = "", $login = 
 
 function navbaruser($home = "", $shop = "", $contact = "", $about_us = "", $login = "")
 {
+    include "dbconf.php";
     $username = "";
     $sql = "Select * from users where id=" . $_SESSION['uid'];
     $res = connect()->query($sql);
@@ -52,18 +52,34 @@ function navbaruser($home = "", $shop = "", $contact = "", $about_us = "", $logi
 
 function adminnavbar($logout = "block", $admin = "none")
 {
-    echo '<nav class="navbar navbar-light navbar-expand-lg bg-white clean-navbar">
-    <div class="container"><a class="navbar-brand logo" href="#"><img src="../assets/img/logo.png" width="30px">QUEST</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navcol-1">
-            <ul class="nav navbar-nav ml-auto mr-1">
+    if (isset($_SESSION['uid'])) {
+        include "../dbconf.php";
+        $sql = "Select * from users where id=" . $_SESSION['uid'];
+        $res = connect()->query($sql);
+        if ($res->num_rows > 0) {
+            while ($row = $res->fetch_assoc()) {
+                $admin = $row['admin'];
+            }
+        }
+    }
+    echo '
+<nav class="navbar navbar-light navbar-expand-lg bg-white clean-navbar">
+    <div class="container"><a class="navbar-brand logo" href="#">Admin Panel</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">';
+    if ($admin) {
+        echo '<ul class="nav navbar-nav ml-auto mr-1">
                 <li class="nav-item" style="display: ' . $admin . '"><a class="nav-link" >Sign Up a User</a></li>
-            </ul>
-            <ul class="nav navbar-nav ml-auto">
+            </ul>';
+    }
+    if (isset($_SESSION['uid'])) {
+        echo '<ul class="nav navbar-nav ml-auto">
                 <li class="nav-item" style="display: ' . $logout . '"><a class="nav-link" href="logout.php">Logout</a></li>
-            </ul>
-        </div>
+            </ul>';
+    }
+    echo '</div>
     </div>
 </nav>';
+
 }
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-if ($_SESSION['uid']) {
+if (isset($_SESSION['uid'])) {
     header("location:catalog-page.php");
 }
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

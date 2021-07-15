@@ -46,7 +46,7 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/engineerGirl.webp"></a></div>
                                             <div class="product-name"><a href="#">Worker Dress</a></div>
                                             <div class="about">
                                                 <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
@@ -58,72 +58,72 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/pirateGirl.webp"></a></div>
                                             <div class="product-name"><a href="#">Pirate Dress</a></div>
                                             <div class="about">
                                                 <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
-                                                    <h3>$100</h3>
+                                                    <h3>₹120</h3>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
-                                            <div class="product-name"><a href="#">Lorem ipsum dolor sit amet</a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/fireGirl.webp"></a></div>
+                                            <div class="product-name"><a href="#">Fire Fighter Dress</a></div>
                                             <div class="about">
                                                 <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
-                                                    <h3>$100</h3>
+                                                    <h3>₹120</h3>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
-                                            <div class="product-name"><a href="#">Lorem ipsum dolor sit amet</a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/waifuGirl.webp"></a></div>
+                                            <div class="product-name"><a href="#">Waifu Dress</a></div>
                                             <div class="about">
                                                 <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
-                                                    <h3>$100</h3>
+                                                    <h3>₹120</h3>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
-                                            <div class="product-name"><a href="#">Lorem ipsum dolor sit amet</a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/robinGirl.webp"></a></div>
+                                            <div class="product-name"><a href="#">Robin Hood Dress</a></div>
                                             <div class="about">
                                                 <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
-                                                    <h3>$100</h3>
+                                                    <h3>₹120</h3>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
-                                            <div class="product-name"><a href="#">Lorem ipsum dolor sit amet</a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/spiderGirl.webp"></a></div>
+                                            <div class="product-name"><a href="#">SpiderWoman Dress</a></div>
                                             <div class="about">
                                                 <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
-                                                    <h3>$100</h3>
+                                                    <h3>₹120</h3>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a><a href="#"></a></div>
-                                            <div class="product-name"><a href="#">Lorem ipsum dolor sit amet</a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/policeGirl.webp"></a><a href="#"></a></div>
+                                            <div class="product-name"><a href="#">Police Dress</a></div>
                                             <div class="about">
                                                 <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
-                                                    <h3>$100</h3>
+                                                    <h3>₹120</h3>
                                                 </div>
                                             </div>
                                         </div>

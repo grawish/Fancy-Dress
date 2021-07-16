@@ -3,36 +3,42 @@ session_start();
 if (isset($_SESSION['uid'])) {
     header("location:index.php");
 }
-include "../includes/header.php";
-head("Home",true);
-
+include 'includes/header.php';
 ?>
-    <main class="page login-page">
-        <section class="clean-block clean-form dark"
-                 style="background: linear-gradient(-69deg, var(--indigo), var(--red));">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info" style="font-weight: bold;">Log In</h2>
-                    <p></p>
-                </div>
-                <form action="auth.php" method="post">
-                    <div class="form-group"><label for="user">Username</label><input class="form-control item"
-                                                                                     type="text" name="user"
-                                                                                     id="user"></div>
-                    <div class="form-group"><label for="password">Password</label><input class="form-control"
-                                                                                         type="password" name="pass"
-                                                                                         id="password"></div>
-                    <br>
-                    <button class="btn btn-primary btn-block" type="submit">Log In</button>
-                    <div class="form-row">
-                        <div class="col">
-                            <div><p style="text-align: center;margin-top: 13px;margin-right: auto;margin-left: auto;">
-                                    Don't have an account? <a href="registration.php">Create One Here!</a></p></div>
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-flex">
+                                <div class="flex-grow-1 bg-login-image" style="background-image: url(&quot;assets/img/dogs/image3.jpeg&quot;);"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h4 class="text-dark mb-4">Welcome Back!</h4>
+                                    </div>
+                                    <form action="auth.php" method="POST" >
+                                        <div class="mb-3"><input class="form-control form-control-user" type="text" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Username..." name="user"></div>
+                                        <div class="mb-3"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Password" name="pass"></div>
+                                        <div class="mb-3">
+                                        </div><button class="btn btn-primary d-block btn-user w-100" type="submit">Login</button>
+                                        <hr>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
-        </section>
-    </main>
-<?php
-include "includes/footer.php";
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>

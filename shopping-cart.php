@@ -24,7 +24,7 @@ else{
                                 <div class="product">
                                     <div class="row justify-content-center align-items-center">
                                         <div class="col-md-3">
-                                            <div class="product-image"><img class="img-fluid d-block mx-auto image" src="assets/img/tech/image2.jpg"></div>
+                                            <div class="product-image"><img class="img-fluid d-block mx-auto image" src="assets/img/slides/image2.jpg"></div>
                                         </div>
                                         <div class="col-md-5 product-info"><a class="product-name" href="#">Lorem Ipsum dolor</a>
                                             <div class="product-specs">
@@ -40,7 +40,7 @@ else{
                                 <div class="product">
                                     <div class="row justify-content-center align-items-center">
                                         <div class="col-md-3">
-                                            <div class="product-image"><img class="img-fluid d-block mx-auto image" src="assets/img/tech/image2.jpg"></div>
+                                            <div class="product-image"><img class="img-fluid d-block mx-auto image" src="assets/img/slides/image2.jpg"></div>
                                         </div>
                                         <div class="col-md-5 product-info"><a class="product-name" href="#">Lorem Ipsum dolor</a>
                                             <div class="product-specs">
@@ -56,7 +56,7 @@ else{
                                 <div class="product">
                                     <div class="row justify-content-center align-items-center">
                                         <div class="col-md-3">
-                                            <div class="product-image"><img class="img-fluid d-block mx-auto image" src="assets/img/tech/image2.jpg"></div>
+                                            <div class="product-image"><img class="img-fluid d-block mx-auto image" src="assets/img/slides/image2.jpg"></div>
                                         </div>
                                         <div class="col-md-5 product-info"><a class="product-name" href="#">Lorem Ipsum dolor</a>
                                             <div class="product-specs">

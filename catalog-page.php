@@ -2,11 +2,10 @@
 include "includes/header.php";
 head("Home");
 session_start();
-if(!isset($_SESSION['uid'])){
-    navbar("","active");
-}
-else{
-    navbaruser("","active");
+if (!isset($_SESSION['uid'])) {
+    navbar("", "active");
+} else {
+    navbaruser("", "active");
 }
 ?>
     <main class="page catalog-page">
@@ -22,10 +21,16 @@ else{
                                 <div class="row no-gutters">
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/catGirl.webp"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/catGirl.webp"></a>
+                                            </div>
                                             <div class="product-name"><a href="#">Cat Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -34,10 +39,16 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/nurseGirl.webp"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/nurseGirl.webp"></a>
+                                            </div>
                                             <div class="product-name"><a href="#">Nurse Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -46,10 +57,16 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/engineerGirl.webp"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/engineerGirl.webp"></a>
+                                            </div>
                                             <div class="product-name"><a href="#">Worker Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -58,10 +75,16 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/pirateGirl.webp"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/pirateGirl.webp"></a>
+                                            </div>
                                             <div class="product-name"><a href="#">Pirate Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -70,10 +93,16 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/fireGirl.webp"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/fireGirl.webp"></a>
+                                            </div>
                                             <div class="product-name"><a href="#">Fire Fighter Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -82,10 +111,16 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/waifuGirl.webp"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/waifuGirl.webp"></a>
+                                            </div>
                                             <div class="product-name"><a href="#">Waifu Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -94,10 +129,16 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/robinGirl.webp"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/robinGirl.webp"></a>
+                                            </div>
                                             <div class="product-name"><a href="#">Robin Hood Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -106,10 +147,16 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/spiderGirl.webp"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/spiderGirl.webp"></a>
+                                            </div>
                                             <div class="product-name"><a href="#">SpiderWoman Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -118,10 +165,16 @@ else{
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <div class="clean-product-item">
-                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/dresses/policeGirl.webp"></a><a href="#"></a></div>
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto"
+                                                                                src="assets/img/dresses/policeGirl.webp"></a><a
+                                                        href="#"></a></div>
                                             <div class="product-name"><a href="#">Police Dress</a></div>
                                             <div class="about">
-                                                <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                                <div class="rating"><img src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star.svg"><img
+                                                            src="assets/img/star-half-empty.svg"><img
+                                                            src="assets/img/star-empty.svg"></div>
                                                 <div class="price">
                                                     <h3>₹120</h3>
                                                 </div>
@@ -129,15 +182,6 @@ else{
                                         </div>
                                     </div>
                                 </div>
-                                <nav>
-                                    <ul class="pagination">
-                                        <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-                                    </ul>
-                                </nav>
                             </div>
                         </div>
                     </div>

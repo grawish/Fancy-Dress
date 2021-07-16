@@ -22,7 +22,7 @@ else{
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="gallery">
-                                    <div class="sp-wrap"><a href="assets/img/tech/image1.jpg"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image1.jpg"></a><a href="assets/img/tech/image1.jpg"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image1.jpg"></a><a href="assets/img/tech/image1.jpg"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image1.jpg"></a></div>
+                                    <div class="sp-wrap"><a href="assets/img/slides/image1.jpg"><img class="img-fluid d-block mx-auto" src="assets/img/slides/image1.jpg"></a><a href="assets/img/slides/image1.jpg"><img class="img-fluid d-block mx-auto" src="assets/img/slides/image1.jpg"></a><a href="assets/img/slides/image1.jpg"><img class="img-fluid d-block mx-auto" src="assets/img/slides/image1.jpg"></a></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -51,7 +51,7 @@ else{
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     <div class="row">
                                         <div class="col-md-5">
-                                            <figure class="figure"><img class="img-fluid figure-img" src="assets/img/tech/image3.png"></figure>
+                                            <figure class="figure"><img class="img-fluid figure-img" src="assets/img/slides/image3.png"></figure>
                                         </div>
                                         <div class="col-md-7">
                                             <h4>Lorem Ipsum</h4>
@@ -64,7 +64,7 @@ else{
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                         <div class="col-md-5">
-                                            <figure class="figure"><img class="img-fluid figure-img" src="assets/img/tech/image3.png"></figure>
+                                            <figure class="figure"><img class="img-fluid figure-img" src="assets/img/slides/image3.png"></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@ else{
                             <div class="row justify-content-center">
                                 <div class="col-sm-6 col-lg-4">
                                     <div class="clean-related-item">
-                                        <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
+                                        <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/slides/image2.jpg"></a></div>
                                         <div class="related-name"><a href="#">Lorem Ipsum dolor</a>
                                             <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                             <h4>$300</h4>
@@ -133,7 +133,7 @@ else{
                                 </div>
                                 <div class="col-sm-6 col-lg-4">
                                     <div class="clean-related-item">
-                                        <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
+                                        <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/slides/image2.jpg"></a></div>
                                         <div class="related-name"><a href="#">Lorem Ipsum dolor</a>
                                             <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                             <h4>$300</h4>
@@ -142,7 +142,7 @@ else{
                                 </div>
                                 <div class="col-sm-6 col-lg-4">
                                     <div class="clean-related-item">
-                                        <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/tech/image2.jpg"></a></div>
+                                        <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/slides/image2.jpg"></a></div>
                                         <div class="related-name"><a href="#">Lorem Ipsum dolor</a>
                                             <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                             <h4>$300</h4>
